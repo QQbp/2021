@@ -1,0 +1,13 @@
+NCF--藍芽
+
+IOT
+
+RFID
+
+IPV6--IPV4
+
+MAC
+
+Token Bus
+
+Tcp--三向交握方式

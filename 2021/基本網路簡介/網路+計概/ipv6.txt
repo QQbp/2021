@@ -1,0 +1,20 @@
+第一章：為何要使用 IPv6 ？
+第二章：IPv6 定址
+第三章：IPv6 通訊協定架構
+第四章：ICMPv6
+第五章：網路
+第六章：IPv6 安全性
+第七章：轉換技術
+第八章：行動 IPv6
+第九章：IPv6 規劃
+附錄A：RFC
+附錄B：建議閱讀清單
+
+本書涵蓋以下內容：
+．位址架構、標頭結構，以及ICMPv6訊息格式
+．IPv6機制，如芳鄰及路由器找尋、無狀態位址自動設定、重複位址檢測
+．Network-related aspects and services: Layer 2 support, Upper Layer Protocols, and Checksums
+．IPv6 中與安全性相關的元件與 IPSEC 架構
+．互通性以及轉移機制與方案
+．應用於行動裝置上的IPv6技術
+．導入IPv6的實務經驗分享
