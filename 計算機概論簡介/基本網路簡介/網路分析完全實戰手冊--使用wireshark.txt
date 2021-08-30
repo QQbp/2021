@@ -1,0 +1,141 @@
+Chapter 01 Wireshark 版本2 簡介
+1.1 Wireshark 版本2 基礎知識
+1.2 安置Wireshark
+1.3 在虛擬機器上抓取封包
+1.4 開始抓取封包
+1.5 設定啟動視窗
+Chapter 02 熟練使用Wireshark 排除網路故障
+2.1 概述
+2.2 設定使用者介面及全網域、協定參數
+2.3 抓取封包檔案的導入和匯出
+2.4 調整資料包的配色規則
+2.5 設定時間參數
+2.6 建置排除故障使用的設定範本
+Chapter 03 抓取封包篩檢程式的用法
+3.1 簡介
+3.2 設定抓取封包篩檢程式
+3.3 設定Ethernet 篩檢程式
+3.4 設定主機和網路篩檢程式
+3.5 設定TCP / UDP 及埠篩檢程式
+3.6 設定複合型篩檢程式
+3.7 設定位元組位移和負載符合型篩檢程式
+Chapter 04 顯示篩檢程式的用法
+4.1 顯示篩檢程式簡介
+4.2 設定顯示篩檢程式
+4.3 設定Ethernet、ARP、主機和網路篩檢程式
+4.4 設定TCP/UDP 篩檢程式
+4.5 設定指定協定類型的篩檢程式
+4.6 設定位元組位移型篩檢程式
+4.7 設定顯示篩檢程式巨集
+Chapter 05 基本資訊統計工具的用法
+5.1 簡介
+5.2 Statistics 功能表中Capture File Properties 工具的用法
+5.3 Statistics 功能表中Resolved Addresses 工具的用法
+5.4 Statistics 功能表中Protocol Hierarchy 工具的用法
+5.5 Statistics 功能表中Conversations 工具的用法
+5.6 Statistics 功能表中Endpoints 工具的用法
+5.7 Statistics 功能表中HTTP 工具的用法
+5.8 設定Flow Graph（資料流程圖），查看TCP 流
+5.9 產生與IP 屬性有關的統計資訊
+Chapter 06 進階資訊統計工具的用法
+6.1 簡介
+6.2 設定支援顯示篩檢程式的I/O Graphs 工具，來定位與網路效能有關的問題
+6.3 用IO Graphs 工具測量鏈路的輸送量
+6.4 啟用Y 軸其他參數的I/O Graphs 工具的進階用法
+6.5 TCP Stream Graphs 功能表項目中Time-Sequence（Stevens）子功能表項目的用法
+6.6 TCP Stream Graphs 功能表項目中Time-Sequence（tcptrace）子功能表項目的用法
+6.7 TCP Stream Graphs 功能表項目中Throughput Graph 子功能表項目的用法
+6.8 TCP Stream Graphs 功能表項目中Round Trip Time Graph 子功能表項目的用法
+6.9 TCP Stream Graphs 功能表項目中Window Scaling Graph 子功能表項目的用法
+Chapter 07 Expert Information 工具的用法
+7.1 簡介
+7.2 如何使用Expert Information 工具排除故障網路故障
+7.3 認識Error 事件
+7.4 認識Warning 事件
+7.5 認識Note 事件
+Chapter 08 Ethernet 和LAN 交換
+8.1 簡介
+8.2 發現廣播和錯誤封包風暴
+8.3 生成樹協定故障分析
+8.4 VLAN 和VLAN tagging 故障分析
+Chapter 09 無線LAN
+9.1 學習目標
+9.2 認識無線網路及其標準
+9.3 無線網路射頻故障、故障分析及故障排除
+9.4 無線LAN 抓取封包
+Chapter 10 網路層協定及其運作方式
+10.1 簡介
+10.2 IPv4 位址解析通訊協定的運作方式及故障排除
+10.3 ICMP 協定的運作方式及故障分析/ 排除
+10.4 IPv4 單播路由選擇的運作方式及故障分析
+10.5 與IPv4 資料包分片有關的故障分析
+10.6 IPv4 群播路由選擇運作原理
+10.7 IPv6 協定的運作原理
+10.8 IPv6 擴充表頭
+10.9 ICMPv6 協定的運作方式及故障分析/ 排除
+10.10 IPv6 位址自動設定特性
+10.11 根據DHCPv6 的位址分配
+10.12 IPv6 芳鄰發現協定的運作原理和故障分析
+Chapter 11 傳輸層協定分析
+11.1 簡介
+11.2 UDP 的運作原理
+11.3 UDP 協定分析和故障排除
+11.4 TCP 的運作原理
+11.5 排除TCP 連通性故障
+11.6 解決TCP 重傳問題
+11.7 TCP 滑動視窗機制
+11.8 對TCP 的改進—選擇性ACK 和時間戳記選項
+11.9 排除與TCP 的資料傳輸輸送量有關的故障
+Chapter 12 FTP、HTTP/1 和HTTP/2
+12.1 介紹
+12.2 FTP 故障分析
+12.3 篩選HTTP 流量
+12.4 設定Preferences 視窗中Protocols 選項下的HTTP 協定參數
+12.5 HTTP 故障分析
+12.6 匯出HTTP 物件
+12.7 HTTP 資料流程分析
+12.8 HTTPS 協定流量分析—SSL/TLS 基礎
+Chapter 13 DNS 協定分析
+13.1 簡介
+13.2 分析DNS 資源記錄類型
+13.3 分析DNS 的一般運作機制
+13.4 分析DNSSEC 的一般運作機制
+13.5 排除DNS 故障
+Chapter 14 E-mail 協定分析
+14.1 簡介
+14.2 E-mail 協定的一般運作方式
+14.3 POP、IMAP 和SMTP 故障分析
+14.4 分析E-mail 協定的錯誤狀態碼，並據此篩選E-mail 流量
+14.5 分析惡意及垃圾郵件
+Chapter 15 NetBIOS 和SMB 協定分析
+15.1 介紹
+15.2 認識NetBIOS 協定
+15.3 認識SMB 協定
+15.4 NetBIOS/SMB 協定故障分析
+15.5 資料庫流量及常見故障分析
+15.6 匯出SMB 物件
+Chapter 16 企業網路應用程式行為分析
+16.1 簡介
+16.2 洞察網路中的流量的類型
+16.3 Microsoft 終端伺服器和Citrix 故障分析
+16.4 資料庫流量及常見故障分析
+Chapter 17 排除SIP、多媒體及IP 電話故障
+17.1 簡介
+17.2 IP 電話技術的原理及一般運作方式
+17.3 SIP 的運作原理、訊息及錯誤代碼
+17.4 IP 上的視訊和RTSP
+17.5 Wireshark 的RTP 流分析和篩檢功能
+17.6 Wireshark 的VoIP 呼叫重放功能
+Chapter 18 排除由低頻寬或高延遲所引發的故障
+18.1 簡介
+18.2 測量網路頻寬及應用程式產生的流量速率
+18.3 借助Wireshark 來獲知鏈路的延遲及抖動狀況
+18.4 分析網路瓶頸、問題及故障排除
+Chapter 19 網路安全和網路取證
+19.1 簡介
+19.2 發現異常流量模式
+19.3 發現根據MAC 位址和根據ARP 的攻擊
+19.4 發現ICMP 和TCP SYN/ 埠掃描
+19.5 發現DoS 和DDoS 攻擊
+19.6 發現進階TCP 攻擊
+19.7 發現針對某些應用程式的暴力破解攻擊
